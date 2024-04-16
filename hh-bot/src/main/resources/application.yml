@@ -12,3 +12,25 @@ spring:
     output:
         ansi:
             enabled: always
+
+env:
+    envPath: ${ENV_PATH:}
+    coveringLetterPath: ${COVERING_LETTER_PATH:}
+    clientId: ${CLIENT_ID:}
+    clientSecret: ${CLIENT_SECRET:}
+    appToken: ${APP_TOKEN:}
+    userAuthCode: ${USER_AUTH_CODE:}
+    userAccessToken: ${USER_ACCESS_TOKEN:}
+    userRefreshToken: ${USER_REFRESH_TOKEN:}
+    appEmail: ${APP_EMAIL:}
+    userAgent: ${USER_AGENT:}
+    resumeId: ${RESUME_ID:}
+    vacancyText: ${VACANCY_TEXT:}
+    vacancyExperience: ${VACANCY_EXPERIENCE:}
+    vacancyEmployment: ${VACANCY_EMPLOYMENT:}
+    vacancySchedule: ${VACANCY_SCHEDULE:}
+    vacancyArea: ${VACANCY_AREA:}
+    vacancyCurrency: ${VACANCY_CURRENCY:}
+    vacancySalary: ${VACANCY_SALARY:}
+    vacancyOnlyWithSalary: ${VACANCY_ONLY_WITH_SALARY:}
+    vacancyPeriod: ${VACANCY_PERIOD:}
